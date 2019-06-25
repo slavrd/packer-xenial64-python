@@ -30,7 +30,7 @@ pushd "Python-${PVER}"
 make -j 1 # one CPU machine
 sudo -H make altinstall # do not overwrite the system default python3 binnary
 
-sudo chown -R vagrant:vagrant /home/vagrant/.local # fix local python3 dir permissions for vagrant user
+sudo chown -R vagrant:vagrant /home/vagrant/.local # fix local python dir permissions for vagrant user
 
 # clean up
 
