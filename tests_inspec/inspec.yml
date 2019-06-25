@@ -1,0 +1,8 @@
+---
+name: default
+title: Python installation
+summary: Test suite for basic check of Python installation
+version: 0.1.0
+inputs:
+  - name: TEST_PVER
+    value: <%= ENV['TEST_PVER'] %>
