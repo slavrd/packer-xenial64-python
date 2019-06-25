@@ -10,9 +10,5 @@ control 'python3' do
   describe command("python#{spver} --version") do
     its('stdout') { should eq "Python #{fpver}\n" }
   end
-  
-  describe command("pip3") do
-    it { should exist }
-  end
 
 end
