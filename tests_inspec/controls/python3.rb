@@ -11,4 +11,8 @@ control 'python3' do
     its('stdout') { should eq "Python #{fpver}\n" }
   end
 
+  describe command("ls -ld /home/vagrant/.local") do
+    its('stdout') { should match /.*vagrant vagrant.*/ }
+  end
+
 end
