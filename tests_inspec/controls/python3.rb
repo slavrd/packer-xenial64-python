@@ -10,9 +10,9 @@ control 'python3' do
   describe command("python#{spver} --version") do
     its('stdout') { should eq "Python #{fpver}\n" }
   end
-  
-  describe command("pip3") do
-    it { should exist }
+
+  describe command("ls -ld /home/vagrant/.local") do
+    its('stdout') { should match /.*vagrant vagrant.*/ }
   end
 
 end
