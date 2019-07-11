@@ -40,11 +40,11 @@ Script usage:
 
 `usage run.sh <python3_version> <source_box> <source_box_version> [<dst_vc_box> <dsc_vc_box_ver>]`
 
-`python3_version` - version of python3 to install
-`source_box_name` - vagrant cloud box 'my-vc-user/my-box'
-`source_box_version` - version of the VC box or 'current'
-`dst_vc_box` - (optional) the vagrant cloud destination box
-`dsc_vc_box_ver` - (required if dst_vc_box set) the vagrant cloud destination box version.
+* `python3_version` - version of python3 to install
+* `source_box_name` - vagrant cloud box 'my-vc-user/my-box'
+* `source_box_version` - version of the VC box or 'current'
+* `dst_vc_box` - (optional) the vagrant cloud destination box
+* `dsc_vc_box_ver` - (required if dst_vc_box set) the vagrant cloud destination box version.
 
 ## Running the project
 
